@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Xanh+Mono:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(92, 64, 64);
+}
+.container {
+    max-width: 500px;
+    padding: 40px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px
+}
+/* Watch Side */
+.box {
+    border-bottom: 1px solid gray;
+    padding-bottom: 40px;
+}
+#title {
+    font-size: 2.5rem;
+    font-family: 'Xanh Mono', monospace;
+}
+.watch {
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.watch div h3 {
+    font-size: 20px;
+    color: rgb(197, 185, 185);
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-family: 'Quicksand', sans-serif;
+}
+.currentTime {
+    background: yellow;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 40px 30px;
+    color: rgb(92, 64, 64);
+
+    font-size: 80px;
+}
+.time:last-child {
+    margin-right: 0;
+}
+
+/* Date Side */
+.date-box {
+    margin-top: 30px;
+}
+.date {
+    color: rgb(149, 226, 203);
+    font-size: 1.6rem;
+}
