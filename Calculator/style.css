@@ -77,12 +77,9 @@ button {
     margin-top: 20px;
 }
 .deleteButton{
-    width: fit-content;
-    background: #08121c;
     color: #fff;
-    margin-left: 260px;
-    margin-top: 10px;
 }
 .clear {
     background: red;
+    grid-column: 1 / 3;
 }
