@@ -3,4 +3,3 @@
 # Projects
 - Dıgıtal Clock
 - Calculator
-- Snake Game 
